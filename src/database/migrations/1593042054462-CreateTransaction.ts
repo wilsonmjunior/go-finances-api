@@ -27,6 +27,10 @@ export default class CreateTransaction1593042054462
             type: 'varchar',
           },
           {
+            name: 'value',
+            type: 'decimal',
+          },
+          {
             name: 'type',
             type: 'varchar',
           },
@@ -37,10 +41,12 @@ export default class CreateTransaction1593042054462
           {
             name: 'created_at',
             type: 'timestamp',
+            default: 'now()',
           },
           {
             name: 'updated_at',
             type: 'timestamp',
+            default: 'now()',
           },
         ],
       }),
