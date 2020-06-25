@@ -1,7 +1,7 @@
 import csvParse from 'csv-parse';
 import fs from 'fs';
 
-import { getCustomRepository, getRepository, In, Not } from 'typeorm';
+import { getCustomRepository, getRepository, In } from 'typeorm';
 
 import Transaction from '../models/Transaction';
 import TransactionsRepository from '../repositories/TransactionsRepository';
@@ -88,7 +88,7 @@ class ImportTransactionsService {
 
     await fs.promises.unlink(filePath);
 
-    return [];
+    return addedTransactions;
   }
 }
 

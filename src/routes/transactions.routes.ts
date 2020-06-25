@@ -24,11 +24,15 @@ transactionsRouter.get('/', async (request, response) => {
     },
   });
 
-  return response.json(transactions);
+  const balance = await transactionsRepository.getBalance();
+
+  return response.json({ transactions, balance });
 });
 
 transactionsRouter.post('/', async (request, response) => {
   const { title, value, type, category } = request.body;
+
+  const transactionsRepository = getCustomRepository(TransactionsRepository);
 
   const createTransactionService = new CreateTransactionService();
 
@@ -39,7 +43,9 @@ transactionsRouter.post('/', async (request, response) => {
     category,
   });
 
-  return response.json(transaction);
+  const balance = await transactionsRepository.getBalance();
+
+  return response.json({ transaction, balance });
 });
 
 transactionsRouter.delete('/:id', async (request, response) => {
@@ -49,18 +55,24 @@ transactionsRouter.delete('/:id', async (request, response) => {
 
   await deleteTransactionService.execute(id);
 
-  return response.send();
+  return response.status(204).send();
 });
 
 transactionsRouter.post(
   '/import',
-  upload.single('transactions'),
+  // upload.single('transactions'),
   async (request, response) => {
+    const transactionsRepository = getCustomRepository(TransactionsRepository);
+
     const importTransactionsService = new ImportTransactionsService();
 
-    const transactions = importTransactionsService.execute(request.file.path);
+    const transactions = await importTransactionsService.execute(
+      request.file.path,
+    );
 
-    return response.json(transactions);
+    const balance = await transactionsRepository.getBalance();
+
+    return response.json({ transactions, balance });
   },
 );
 
