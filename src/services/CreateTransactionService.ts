@@ -19,6 +19,8 @@ class CreateTransactionService {
     type,
     category,
   }: Request): Promise<Transaction> {
+    console.log(title, value, type, category);
+
     const transactionsRepository = getCustomRepository(TransactionsRepository);
     const categoriesRepository = getRepository(Category);
 
