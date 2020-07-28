@@ -6,10 +6,6 @@
 🚀Aplicação de gerenciamento de transações para treinar o Node.js com o Typecript, o banco    de dados com o TypeORM e os arquivos de envio com o Multer.
 </p>
 
-<img src="https://img.shields.io/static/v1?label=Docker&message=Docker&color=7159c1&style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/static/v1?label=Docker&message=Docker&color=7159c1&style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/static/v1?label=Docker&message=Docker&color=7159c1&style=for-the-badge&logo=docker"/>
-
 ## Status do Projeto
 
 <h4 align="center"> 
@@ -17,11 +13,6 @@
 </h4>
 
 ### Pré-requisitos
-
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
-
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -48,7 +39,7 @@ $ npm run dev:server
 ```
 
 
-```
+```bash
 git clone https://github.com/wilsonmjunior/go-finances-api
 
 cd go-finances-api
