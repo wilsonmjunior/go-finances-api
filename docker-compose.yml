@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  postgres_db:
+    image: postgres:latest
+    container_name: gostack
+    environment:
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=gofinances
+    ports:
+      - "5432:5432"
