@@ -14,23 +14,15 @@ Transfer management application for Node.js training with TypeScript, database w
 
 ## Setting up Databases 
 
-The project uses PostgreSQL.
+The project uses [PostgreSQL](https://www.postgresql.org/).
 
-I recommend use Docker to install and run the database.
-
-[Docker](https://www.docker.com/) 
-
-[PostgreSQL](https://www.postgresql.org/).
+I recommend use [Docker](https://www.docker.com/)  to install and run the database.
 
 ## How to use
 
 Tools that need to be installed
 
-[Git](https://git-scm.com)
-
-[Node.js](https://nodejs.org/en/)
-
-[Yarn](https://yarnpkg.com/), 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) 
 
 In addition to an editor to be able to work with the code [VSCode] (https://code.visualstudio.com/)
 
