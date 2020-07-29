@@ -120,4 +120,6 @@ Feito por [Wilson Matokanovic Junior](https://gtihub.com/wilsonmjunior)
 [![Linkedin Badge](https://img.shields.io/badge/-Wilson%20Matokanovic%20Junior-blue?style=flat-square&logo=Linkedin&logoColor=%23fff&link=https://www.linkedin.com/in/wilsonmatokanovic/)](https://www.linkedin.com/in/wilsonmatokanovic/)
 [![Gmail Badge](https://img.shields.io/badge/-wilsonmjuniorx@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wilsonmjuniorx@gmail.com)](mailto:wilsonmjuniorx@gmail.com)
 
+## :memo: Licença
 
+This project is under the MIT license. See the [LICENSE](https://github.com/wilsonmjunior/go-finances-api/blob/master/LICENSE) for more information.
