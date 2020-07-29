@@ -102,7 +102,6 @@ GET /transactions
 ## Technologies used
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeORM](https://typeorm.io/)
 - [Docker](https://www.docker.com/)
