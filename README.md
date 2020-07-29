@@ -10,8 +10,8 @@ Transfer management application for Node.js training with TypeScript, database w
 
 <p align="center">
  <a href="#prerequisites">Prerequisites</a> •
- <a href="#technologies used">Technologies</a> • 
- <a href="#licence">License</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#License">License</a> • 
  <a href="#author">Author</a>
 </p>
 
