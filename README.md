@@ -51,8 +51,8 @@ $ yarn dev:server
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
-### Testing api
-Application routes
+### Testando a api
+Rotas da aplicação
 
 ```bash
 POST /transactions
@@ -99,3 +99,17 @@ GET /transactions
   }
 }
 ```
+
+## ℹ Tecnologias utilizadas
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/)
+- [Docker](https://www.docker.com/)
+- [PostgreSQL](https://www.postgresql.org/
+
