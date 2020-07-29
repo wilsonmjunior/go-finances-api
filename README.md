@@ -9,50 +9,49 @@
 ## Tabela de conteúdos 
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#objetivo">Prerequisites</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#licence">License</a> • 
+ <a href="#author">Author</a>
 </p>
 
-## Status do Projeto
+## Project Status
 
 <h4 align="center"> 
-  ✔	Concluido ✔
+  ✔	Concluded ✔
 </h4>
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Tools that need to be installed
 
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), [Docker](https://www.docker.com/) ou [PostgreSQL](https://www.postgresql.org/), 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), [Docker](https://www.docker.com/) ou [PostgreSQL](https://www.postgresql.org/).
 
-### 🎲 Rodando a aplicação 
+In addition to an editor to be able to work with the code [VSCode] (https://code.visualstudio.com/)
+
+### 🎲 Running the application 
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone <https://www.github.com/wilsonmjunior/go-finances-api>
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder 
 $ cd go-finances-api
 
-# Instale as dependências
+# Install dependencies
 $ yarn
 
-# Crie o container no docker 
+# Create the container in the Docker
 docker-compose -f "docker-compose.yml" up -d --build
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development 
 $ yarn dev:server
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# The server will start at the port:3333 - access <http://localhost:3333>
 ```
 
-### Testando a api
-Rotas da aplicação
+### Testing api
+Application routes
 
 ```bash
 POST /transactions
@@ -100,11 +99,7 @@ GET /transactions
 }
 ```
 
-## Tecnologias utilizadas
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
+## 🛠 Technologies used
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
@@ -113,13 +108,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-## Autor
+## :memo: License
 
-Feito por [Wilson Matokanovic Junior](https://gtihub.com/wilsonmjunior)
+This project is under the MIT license. See the [LICENSE](https://github.com/wilsonmjunior/go-finances-api/blob/master/LICENSE) for more information.
+
+## Author
+
+Made by [Wilson Matokanovic Junior](https://gtihub.com/wilsonmjunior)
 
 [![Linkedin Badge](https://img.shields.io/badge/-Wilson%20Matokanovic%20Junior-blue?style=flat-square&logo=Linkedin&logoColor=%23fff&link=https://www.linkedin.com/in/wilsonmatokanovic/)](https://www.linkedin.com/in/wilsonmatokanovic/)
 [![Gmail Badge](https://img.shields.io/badge/-wilsonmjuniorx@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wilsonmjuniorx@gmail.com)](mailto:wilsonmjuniorx@gmail.com)
-
-## :memo: Licença
-
-This project is under the MIT license. See the [LICENSE](https://github.com/wilsonmjunior/go-finances-api/blob/master/LICENSE) for more information.
