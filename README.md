@@ -41,6 +41,9 @@ $ yarn
 # Create the container in the Docker
 docker-compose -f "docker-compose.yml" up -d --build
 
+# Run migrations
+yarn typeorm migration:run
+
 # Run the application in development 
 $ yarn dev:server
 
