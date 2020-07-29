@@ -100,7 +100,7 @@ GET /transactions
 }
 ```
 
-## ℹ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 ### 🛠 Tecnologias
 
@@ -111,5 +111,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeORM](https://typeorm.io/)
 - [Docker](https://www.docker.com/)
-- [PostgreSQL](https://www.postgresql.org/
+- [PostgreSQL](https://www.postgresql.org/)
+
+## Autor
+
+Feito por [Wilson Matokanovic Junior](https://gtihub.com/wilsonmjunior)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Wilson%20Matokanovic%20Junior-blue?style=flat-square&logo=Linkedin&logoColor=%23fff&link=https://www.linkedin.com/in/wilsonmatokanovic/)](https://www.linkedin.com/in/wilsonmatokanovic/)
+[![Gmail Badge](https://img.shields.io/badge/-wilsonmjuniorx@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wilsonmjuniorx@gmail.com)](mailto:wilsonmjuniorx@gmail.com)
+
 
