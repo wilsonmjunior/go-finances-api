@@ -6,52 +6,57 @@
 🚀Aplicação de gerenciamento de transações para treinar o Node.js com o Typecript, o banco    de dados com o TypeORM e os arquivos de envio com o Multer.
 </p>
 
+## Tabela de conteúdos 
+
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
 ## Status do Projeto
 
 <h4 align="center"> 
-	Concluido
+  ✔	Concluido ✔
 </h4>
 
 ### Pré-requisitos
 
-### 🎲 Rodando o Back End (servidor)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+[Git](https://git-scm.com)
+
+[Node.js](https://nodejs.org/en/). 
+
+[Yarn](https://yarnpkg.com/)
+
+[Docker](https://www.docker.com/) ou [PostgreSQL](https://www.postgresql.org/)
+
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+### 🎲 Rodando a aplicação 
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://www.github.com/wilsonmjunior/go-finances-api>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
+$ cd go-finances-api
 
 # Instale as dependências
-$ npm install
+$ yarn
 
 # Crie o container no docker 
 docker-compose -f "docker-compose.yml" up -d --build
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ yarn dev:server
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
-```
-
-
-```bash
-git clone https://github.com/wilsonmjunior/go-finances-api
-
-cd go-finances-api
-  
-yarn 
-
-
-
-yarn typeorm migration:run
-
-yarn dev:server
-
 ```
 
 ## Testing api
