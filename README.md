@@ -6,28 +6,27 @@
 Transfer management application for Node.js training with TypeScript, database with TypeORM and sending files with Multer
 </p>
 
-## Tabela de conteúdos 
-
-<p align="center">
- <a href="#Prerequisites">Prerequisites</a> •
- <a href="#Testing api">Prerequisites</a> •
- <a href="#Technologies used">Technologies</a> • 
- <a href="#License">License</a> • 
- <a href="#Author">Author</a>
-</p>
-
 ## Project Status
 
 <h4 align="center"> 
   ✔	Concluded ✔
 </h4>
 
-## Prerequisites
+## Setting up Databases 
+
+The project uses PostgreSQL.
+
+I recommend use Docker to install and run the database.
+
+[Docker](https://www.docker.com/) 
+
+[PostgreSQL](https://www.postgresql.org/).
+
+## How to use
 
 Tools that need to be installed
 
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), [Docker](https://www.docker.com/) ou [PostgreSQL](https://www.postgresql.org/).
-
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), 
 In addition to an editor to be able to work with the code [VSCode] (https://code.visualstudio.com/)
 
 ### 🎲 Running the application 
