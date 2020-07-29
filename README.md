@@ -99,7 +99,7 @@ GET /transactions
 }
 ```
 
-## 🛠 Technologies used
+## Technologies used
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
@@ -108,9 +108,9 @@ GET /transactions
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-## :memo: License
+##  License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/wilsonmjunior/go-finances-api/blob/master/LICENSE) for more information.
+:memo: This project is under the MIT license. See the [LICENSE](https://github.com/wilsonmjunior/go-finances-api/blob/master/LICENSE) for more information.
 
 ## Author
 
