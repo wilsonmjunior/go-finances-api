@@ -26,7 +26,12 @@ I recommend use Docker to install and run the database.
 
 Tools that need to be installed
 
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), 
+[Git](https://git-scm.com)
+
+[Node.js](https://nodejs.org/en/)
+
+[Yarn](https://yarnpkg.com/), 
+
 In addition to an editor to be able to work with the code [VSCode] (https://code.visualstudio.com/)
 
 ### 🎲 Running the application 
