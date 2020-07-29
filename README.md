@@ -3,14 +3,14 @@
 </h1>
 
 <p align="center">
-🚀Aplicação de gerenciamento de transações para treinar o Node.js com o Typecript, o banco    de dados com o TypeORM e os arquivos de envio com o Multer.
+Transfer management application for Node.js training with TypeScript, database with TypeORM and sending files with Multer
 </p>
 
 ## Tabela de conteúdos 
 
 <p align="center">
- <a href="#objetivo">Prerequisites</a> •
- <a href="#technologies">Technologies</a> • 
+ <a href="#prerequisites">Prerequisites</a> •
+ <a href="#technologies used">Technologies</a> • 
  <a href="#licence">License</a> • 
  <a href="#author">Author</a>
 </p>
