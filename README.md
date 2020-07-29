@@ -9,10 +9,11 @@ Transfer management application for Node.js training with TypeScript, database w
 ## Tabela de conteúdos 
 
 <p align="center">
- <a href="#prerequisites">Prerequisites</a> •
- <a href="#technologies">Technologies</a> • 
+ <a href="#Prerequisites">Prerequisites</a> •
+ <a href="#Testing api">Prerequisites</a> •
+ <a href="#Technologies used">Technologies</a> • 
  <a href="#License">License</a> • 
- <a href="#author">Author</a>
+ <a href="#Author">Author</a>
 </p>
 
 ## Project Status
@@ -21,7 +22,7 @@ Transfer management application for Node.js training with TypeScript, database w
   ✔	Concluded ✔
 </h4>
 
-### Prerequisites
+## Prerequisites
 
 Tools that need to be installed
 
@@ -50,7 +51,7 @@ $ yarn dev:server
 # The server will start at the port:3333 - access <http://localhost:3333>
 ```
 
-### Testing api
+## Testing api
 Application routes
 
 ```bash
